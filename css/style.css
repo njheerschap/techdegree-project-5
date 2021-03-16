@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4faf0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+.search {
+    width: 40vw;
+    height: 50px;
+    font-size: 1.25rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gallery {
+    max-width: 850px;
+    justify-content: center;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.photo {
+    justify-self: center;
+}
+
+.thumb {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
